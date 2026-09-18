@@ -18,8 +18,8 @@ Open the URL Streamlit prints (default http://localhost:8501).
 
 2. Project Structure
 airline_agent/
-├── data.py           # Customer profiles, bookings, policies, allowed/prohibited actions
-├── agent.py          # Sentiment detection, intent recognition, rule engine, audit trail
+├── data.py            Customer profiles, bookings, policies, allowed/prohibited actions
+├── agent.py           Sentiment detection, intent recognition, rule engine, audit trail
 ├── app.py            # Streamlit UI: chat, customer selector, sidebar (DB/policy/escalations)
 ├── requirements.txt  # Python dependencies
 └── README.md         # This file
